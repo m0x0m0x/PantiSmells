@@ -1,9 +1,8 @@
 #!/bin/fish
-/workspaces/gl-pdtmcharm1/kh/pnp.fish
-/workspaces/gl-pdtmcharm1/kh/fixrs.fish
-/workspaces/gl-pdtmcharm1/kh/st.sh
-/workspaces/gl-pdtmcharm1/kh/aryt.fish
-/workspaces/gl-pdtmcharm1/kh/tgpt.fish
-/workspaces/gl-pdtmcharm1/kh/bun.fish
+/workspaces/PantiSmells/kh/pnp.fish
+/workspaces/PantiSmells/kh/st.sh
+/workspaces/PantiSmells/kh/aryt.fish
+/workspaces/PantiSmells/kh/tgpt.fish
+/workspaces/PantiSmells/kh/bun.fish
 
 
