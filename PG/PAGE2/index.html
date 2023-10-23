@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport meta tag for responsive sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=IBM+Plex+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://static.thenounproject.com/png/3097547-84.png"
+    />
+    <title>SmellPanty</title>
+
+    <style>
+      body {
+        margin: 0;
+
+        height: 100%;
+
+        background: url("https://media.tenor.com/f0cKyHniahEAAAAC/background-khaoticfuture.gif")
+          no-repeat center / cover fixed;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Clamp font size for responsive sizing */
+      h1 {
+        font-size: clamp(2rem, 8vw, 6rem);
+        color: #6aff00;
+        text-shadow: 1px 1px 1px #000;
+        font-family: "Exo 2", sans-serif;
+      }
+
+      /* Max width container */
+      .image-container {
+        max-width: 80vw;
+      }
+
+      /* Responsive image */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Clamp font size */
+      h2 {
+        font-size: clamp(1rem, 4vw, 2rem);
+        background-color: #000;
+        color: #ff002b;
+        padding: 0.5em 1em;
+        text-shadow: 1px 1px 1px #000;
+        font-family: "IBM Plex Mono", sans-serif;
+      }
+
+      /* Small screen adjustment */
+      @media (max-width: 600px) {
+        .image-container {
+          max-width: 95vw;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>PantiSmells</h1>
+
+    <div class="image-container">
+      <!-- Responsive image -->
+      <img
+        src="https://media.tenor.com/1ik6XWukDY8AAAAd/harisu-korean-pop.gif"
+        alt="SmellPanty"
+      />
+    </div>
+
+    <h2>go install -v https://github.com/m0x0m0x/PantiSmells</h2>
+  </body>
+</html>

@@ -1,1 +1,10 @@
-p
+Surgesh 
+Install Suge with bun 
+bun install --global surge 
+
+Eugeing
+m0x0m0x@tuta.io
+0xG6BfJF#2!&$y8X
+
+Dira
+ therapeutic-alley.surge.sh

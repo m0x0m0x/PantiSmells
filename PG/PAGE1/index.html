@@ -57,13 +57,19 @@
         font-family: "Exo 2", sans-serif;
       }
 
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
       img {
         display: block;
         height: auto;
-        margin: auto;
-        max-width: fit-content;
-        z-index: 2;
-        margin-top: 15%;
+        max-width: 80vw;
+        margin: 0 auto 15vh;
+        z-index: 1;
       }
 
       h2 {
@@ -79,6 +85,11 @@
         font-family: "IBM Plex Mono", sans-serif;
         background-color: black;
         padding: 10px;
+      }
+      @media only screen and (max-width: 600px) {
+        img {
+          margin-top: 10vh;
+        }
       }
     </style>
   </head>
